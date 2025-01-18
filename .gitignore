@@ -10,9 +10,6 @@
 # Database
 mongo-data/
 
-# Docker
-docker-compose.yml
-
 # testing
 /coverage
 

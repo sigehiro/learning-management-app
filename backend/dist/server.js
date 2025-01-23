@@ -28,7 +28,7 @@ const connectDB = () => __awaiter(void 0, void 0, void 0, function* () {
         process.exit(1);
     }
 });
-connectDB();
+// connectDB()
 //初期での起動確認：curl -i http://localhost:3000/
 app.get('/', (req, res) => {
     res.send('Hello World');

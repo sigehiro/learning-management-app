@@ -4,6 +4,7 @@
   "main": "src/server.ts",
   "scripts": {
     "dev": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc",
     "start": "node dist/server.js",
     "test": "mocha -r ts-node/register test/**/*.test.js"
   },

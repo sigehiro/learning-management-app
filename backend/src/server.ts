@@ -2,6 +2,7 @@ import express from 'express'
 import cors from 'cors'
 import mongoose from 'mongoose'
 import dotenv from 'dotenv'
+const dbURL = process.env.DB_URL
 
 dotenv.config()
 
@@ -12,6 +13,9 @@ app.use(express.json())
 //MongoDB接続
 const connectDB = async () => {
   try {
+    //TODO MongoDb Atlasへの接続時に使えるようにdbURLを.envファイルに設定
+    //process.env.MONGO_URI!
+    //dbURL!
     await mongoose.connect(process.env.MONGO_URI!, {})
     console.log('MongoDB Connected')
   } catch (err) {

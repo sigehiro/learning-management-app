@@ -1,17 +1,15 @@
 import React from 'react'
-import './HomePage.styles'
+import { Header, Navigation, LoginLink } from './HomePage.styles'
 
 const Homepage: React.FC = () => {
   return (
     <div>
       {/* ヘッダー */}
-      <header className="header">
-        <nav className="navigation">
-          <a href="/login" className="login-link">
-            Login
-          </a>
-        </nav>
-      </header>
+      <Header>
+        <Navigation>
+          <LoginLink href="/login">Login</LoginLink>
+        </Navigation>
+      </Header>
 
       <main>
         {/* Hero Section */}

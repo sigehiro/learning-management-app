@@ -18,3 +18,15 @@ export const LoginLink = styled.a`
   border: 1px solid #333;
   border-radius: 5px;
 `
+
+export const Footer = styled.footer`
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+
+  p {
+    margin: 0;
+    font-size: 14px;
+  }
+`

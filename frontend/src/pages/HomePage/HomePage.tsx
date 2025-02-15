@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, Navigation, LoginLink } from './HomePage.styles'
+import { Header, Navigation, LoginLink, Footer } from './HomePage.styles'
 
 const Homepage: React.FC = () => {
   return (
@@ -93,9 +93,9 @@ const Homepage: React.FC = () => {
         </section>
       </main>
 
-      <footer>
-        <p>&copy; 2024 CJ TaskMaster. All rights reserved.</p>
-      </footer>
+      <Footer>
+        <p>&copy; 2025 CJ TaskMaster. All rights reserved.</p>
+      </Footer>
     </div>
   )
 }
